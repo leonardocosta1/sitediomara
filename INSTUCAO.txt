@@ -1,0 +1,4 @@
+1 - git status (ver o que tem de diferente)
+2 - git add nomeDoArquivo || git add . (para adicionar todos os arquivos pendentes)
+3 - git commit -m "Mensagem"
+4 - git push
