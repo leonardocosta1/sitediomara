@@ -1,7 +1,9 @@
 html{
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    background-image: url(_imagens-cross/1954a5e2fc29e85ebc7e25a93f19dd6d.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body{
