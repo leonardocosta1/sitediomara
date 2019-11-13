@@ -1,0 +1,4 @@
+.grid {
+    display: grid;
+    grid-area: 1fr 1fr;
+}

@@ -1,0 +1,90 @@
+
+       <!DOCTYPE html>
+       <html lang="pt-br">
+       <head>
+           <meta charset="UTF-8"/>
+           <title>TUDO SOBRE BICICLETA</title>
+       <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+       <link rel="stylesheet" type="text/css" href="estilos-globais.css"/>
+       </head>
+       <body>
+       
+           <header>
+               <nav>
+                   <ul type="disc" class="navBar">
+                       <li><a href="index.html" class="navBar-button">História da bicicleta</a></li>
+                       <li><a href="speed.html" class="navBar-button">Speed</a></li>
+                       <li><a href="mtb.html" class="navBar-button">Mtb</a></li>
+                       <li><a href="bmx.html" class="navBar-button">Bmx</a></li>
+                       <li><a href="cross country.html"class="navBar-button">cross country</a>     </li>
+                       <li><a href="cadastro.html" class="navBar-button">Perguntas</a></li>
+                   </ul>
+               </nav>
+           </header>     
+<form action="#" method="post">
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" style="width: 20em" value="">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+            </div>
+    
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="">--</option>
+                        <option value="PR">PR</option>
+                        <option value="PR">SP</option>
+                        <option value="PR">RJ</option>
+                        <option value="PR">SC</option>
+                        <option value="PR">MS</option>
+                        <option value="PR">MT</option>
+                        
+                    </select>
+                </div>
+            </fieldset>
+    
+            <div class="campo">
+                <label for="mensagem">DUVIDAS</label>
+                <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+            </div>
+    
+            <div class="campo">
+                
+                <label>
+                    <input type="checkbox" name="duvidas" value="1"> Gostaria de receber E-mail?
+                </label>
+            </div>
+    
+            <button type="submit" name="submit">Enviar</button>
+        </fieldset>
+    </form>
+    </body>
+    </html>
